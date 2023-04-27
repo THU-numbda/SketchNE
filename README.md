@@ -1,6 +1,8 @@
 # SketchNE
 code for SketchNE
 
+[1] Yuyang Xie, Yuxiao Dong, Jiezhong Qiu, Wenjian Yu, Xu Feng, Jie Tang, “SketchNE: Embedding billion-scale networks accurately in one hour,” IEEE Trans. Knowledge and Data Engineering, 2023
+
 # Install
 
 The code is compiled and run with g++ 7.4.0 (any supporting c++17 should work in theory).
