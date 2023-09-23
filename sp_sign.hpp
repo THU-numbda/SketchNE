@@ -109,7 +109,7 @@ MKL_INT sp_sign_gen_csc(MKL_INT m, MKL_INT n, MKL_INT eta, MKL_INT *unique_pos, 
 #pragma omp parallel for
     for (i = 0; i < n; ++i)
     {
-        srand(time(0) ^ i);
+        srand(time(0) + i);
         rand_select(m, eta, unique_pos + i * eta, 0);
     }
     rand_sign_mat_csc(n, eta, unique_pos, spMat);
