@@ -46,11 +46,11 @@ To clean the compiled file, run `make clean`.
 
 Before running the example, you may need to set environment. If you install MKL directly from Intel, you can set:
 ```
-export LD_LIBRARY_PATH=/opt/intel/mkl/lib/intel64
+export LD_LIBRARY_PATH=/opt/intel/mkl/lib/intel64:$LD_LIBRARY_PATH
 ```
 Or you can set the library path in anaconda path:
 ```
-export LD_LIBRARY_PATH={ANACONDA_PATH}/envs/sketchne/lib
+export LD_LIBRARY_PATH={ANACONDA_PATH}/envs/sketchne/lib:$LD_LIBRARY_PATH
 ```
 
 # Run
